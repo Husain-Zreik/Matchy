@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Matchy Game</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="@Url.Content("~/Content/CSS/shared.css")" rel="stylesheet" />
+    <link href="~/Content/Css/home-styles.css" rel="stylesheet" />
+
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="bg-dark sidebar">
+                <h2 class="text-white text-center p-3">
+                    <i class="me-2 fa-solid fa-puzzle-piece fa-bounce"></i>Matchy
+                </h2>
+                <div class="sidebar-content">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="@Url.Action("Index", "Home")" class="nav-link text-white">
+                                <i class="me-2 fa-solid fa-play fa-beat"></i> Play
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="@Url.Action("Scoreboard", "Home")" class="nav-link text-white">
+                                <i class="me-2 fa-solid fa-trophy fa-shake"></i> Score
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="@Url.Action("Settings", "Home")" class="nav-link text-white">
+                                <i class="me-2 fa-solid fa-cogs fa-spin-pulse"></i> Settings
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="exit-container">
+                    <!-- Exit Button -->
+                    <a href="@Url.Action("Login", "Auth")" class="nav-link text-white text-center">
+                        <i class="me-2 fa-solid fa-sign-out-alt"></i> Exit
+                    </a>
+                </div>
+            </nav>
+
+            </nav>
+
+            <!-- Main Content Area -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="container mt-4">
+                    <h1 class="mb-4">@ViewBag.Title</h1>
+                    @RenderBody()
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    @*<footer class="footer mt-auto py-3 bg-light text-center">
+        <p>&copy; @DateTime.Now.Year - Matchy Game</p>
+    </footer>*@
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <script>
+        // This function confirms if the user wants to exit
+        function confirmExit() {
+            if (confirm("Are you sure you want to exit?")) {
+                window.location.href = '@Url.Action("Login", "Auth")'; // Redirect to Login
+            }
+        }
+    </script>
+</body>
+</html>

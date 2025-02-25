@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Settings Container -->
+    <div class="settings-container">
+        <h2 class="settings-title">Settings</h2>
+
+        <!-- Image Upload Section -->
+        <div class="image-upload-section">
+            <label for="imageInput" class="upload-label">Select or Drag Images Here:</label>
+            <div id="dropZone" class="image-upload-box">
+                <input type="file" id="imageInput" name="files" multiple accept="image/*" class="upload-input" style="display: none;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="upload-icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5" />
+                </svg>
+                <div class="image-upload-text">
+                    <h3>Drag & Drop Images</h3>
+                    <p>or click to browse your files</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image Preview Section -->
+        <div id="imagePreview" class="image-preview-grid"></div>
+    </div>
+
+    <!-- Fixed Buttons for Settings -->
+    <div class="fixed-buttons">
+        <button id="uploadButton" class="btn-upload" style="display: none;">Upload</button>
+        <button id="resetImages" class="btn-reset">Reset</button>
+    </div>
+
+    <script src="~/Content/JS/settingsController.js"></script>
+</body>
+</html>

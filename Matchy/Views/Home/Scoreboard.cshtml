@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Board</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <div class="score-board-container">
+        <h1 id="title">Score Board: My Scores</h1>
+
+        <!-- List of Scores -->
+        <table id="scoreTable">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Level</th>
+                    <th>Score</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Scores will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+
+        <div class="scoreboard-controls">
+            <button id="toggleScores" class="btn">Show High Scores</button>
+            <button id="resetScores" class="btn">Reset Scores</button>
+        </div>
+    </div>
+
+    <script src="~/Content/JS/scoreController.js"></script>
+</body>
+</html>

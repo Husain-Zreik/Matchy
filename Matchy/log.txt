@@ -1,0 +1,213 @@
+Signup attempt for Username: rrrrrrrrr
+Password: 1234567
+ConfirmPassword: 1234567
+Age: 22
+CreatedAt: 24/02/2025 08:13:08 م
+An error occurred while updating the database.
+Error Message: An error occurred while updating the entries. See the inner exception for details.
+Inner Exception: An error occurred while updating the entries. See the inner exception for details.
+Inner Exception Stack Trace:    at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+Signup attempt for Username: rerere
+Password: 1234567
+ConfirmPassword: 1234567
+Age: 22
+CreatedAt: 24/02/2025 08:21:28 م
+An error occurred while updating the database.
+Error Message: An error occurred while updating the entries. See the inner exception for details.
+Inner Exception: An error occurred while updating the entries. See the inner exception for details.
+Inner Exception Stack Trace:    at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+Signup attempt for Username: qqqqqqqqqqqqqqqq
+Password: 1234567
+ConfirmPassword: 1234567
+Age: 22
+CreatedAt: 24/02/2025 08:27:08 م
+An error occurred while updating the database.
+Error Message: An error occurred while updating the entries. See the inner exception for details.
+Inner Exception: An error occurred while updating the entries. See the inner exception for details.
+Inner Exception Stack Trace:    at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+hi users
+Retrieved Users:
+Retrieved Users:
+Retrieved Users:
+Username: huzk, Age: 11
+Username: huzk1, Age: 11
+Username: alaa, Age: 12
+Username: aman, Age: 22
+Username: layal, Age: 20
+Username: hsen, Age: 18
+Username: lilo, Age: 27
+Signup attempt for Username: fffff
+Password: 1234567
+ConfirmPassword: 1234567
+Age: 22
+CreatedAt: 24/02/2025 08:45:32 م
+An error occurred while updating the database.
+Error Message: An error occurred while updating the entries. See the inner exception for details.
+Inner Exception: An error occurred while updating the entries. See the inner exception for details.
+Inner Exception Stack Trace:    at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+Signup attempt for Username: huzk
+Password: 1234567
+ConfirmPassword: 1234567
+Age: 22
+CreatedAt: 24/02/2025 08:52:03 م
+Signup attempt for Username: huzk2
+Password: 1234567
+ConfirmPassword: 1234567
+Age: 22
+CreatedAt: 24/02/2025 08:52:28 م
+An error occurred while updating the database.
+Error Message: An error occurred while updating the entries. See the inner exception for details.
+Inner Exception: An error occurred while updating the entries. See the inner exception for details.
+Inner Exception Stack Trace:    at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+Signup attempt for Username: erstt
+Password: 1234567
+ConfirmPassword: 1234567
+Age: 23
+CreatedAt: 24/02/2025 09:12:26 م
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+User erstt registered successfully.
+Login Page
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Login Page
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Login Page
+Login Page
+Retrieved 8 users.
+Login Page
+Login Page
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Login Page
+Login Page
+Login Page
+Login Page
+Login Page
+Login Page
+Login Page
+Login Page
+Login Page
+Login Page
+Login Page
+Login Page
+Login Page
+Login Page
+Login Page
+Login Page
+Login Page
+Attempting login.
+Failed login attempt for  at 24/02/2025 09:47:58 م.
+Attempting login.
+Failed login attempt for  at 24/02/2025 09:47:59 م.
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Login Page
+Login Page
+Login Page
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Signup attempt for Username: hsen
+Attempting login.
+Failed login attempt for hsen at 24/02/2025 10:22:18 م.
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Attempting login.
+Failed login attempt for hsen at 24/02/2025 10:24:32 م.
+Attempting login.
+User hsen logged in at 24/02/2025 10:24:41 م.
+Attempting login.
+Failed login attempt for hsen at 24/02/2025 10:25:28 م.
+Attempting login.
+User hsen logged in at 24/02/2025 10:25:35 م.
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Attempting login.
+User hsen logged in at 25/02/2025 12:22:14 ص.
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+start game 
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Save Score Method Called
+Score saved successfully for user hsen (ID: 7).
+Save Rating Method Called
+Player examplePlayer not found in the database.
+Save Rating Method Called
+Rating 3 saved successfully for user hsen (ID: 7).
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Save Score Method Called
+Score saved successfully for user hsen (ID: 7).
+Save Score Method Called
+Score saved successfully for user hsen (ID: 7).
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Directory already exists: C:\Users\Administrator\source\repos\Matchy\Matchy\Content\CustomImages
+Saving file to: C:\Users\Administrator\source\repos\Matchy\Matchy\Content\CustomImages\WhatsApp Image 2024-05-26 at 11.25.40 PM.jpeg
+File WhatsApp Image 2024-05-26 at 11.25.40 PM.jpeg uploaded successfully.
+Directory already exists: C:\Users\Administrator\source\repos\Matchy\Matchy\Content\CustomImages
+Saving file to: C:\Users\Administrator\source\repos\Matchy\Matchy\Content\CustomImages\WhatsApp Image 2024-05-26 at 11.25.40 PM.jpeg
+File WhatsApp Image 2024-05-26 at 11.25.40 PM.jpeg uploaded successfully.
+Directory already exists: C:\Users\Administrator\source\repos\Matchy\Matchy\Content\CustomImages
+Saving file to: C:\Users\Administrator\source\repos\Matchy\Matchy\Content\CustomImages\WhatsApp Image 2024-05-26 at 11.25.40 PM.jpeg
+File WhatsApp Image 2024-05-26 at 11.25.40 PM.jpeg uploaded successfully.
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Directory already exists: C:\Users\Administrator\source\repos\Matchy\Matchy\Content\CustomImages
+Deleting all files in directory: C:\Users\Administrator\source\repos\Matchy\Matchy\Content\CustomImages
+Deleting file: C:\Users\Administrator\source\repos\Matchy\Matchy\Content\CustomImages\WhatsApp Image 2024-05-26 at 11.25.40 PM.jpeg
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Save Score Method Called
+Score saved successfully for user hsen (ID: 7).
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Signup attempt for Username: hsen10
+User hsen10 registered successfully.
+Attempting login.
+User hsen10 logged in at 25/02/2025 10:42:16 م.
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Attempting login.
+User hsen10 logged in at 25/02/2025 10:46:57 م.
+Save Rating Method Called
+Rating 3 saved successfully for user hsen10 (ID: 1008).
+Save Score Method Called
+Score saved successfully for user hsen10 (ID: 1008).
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Attempting login.
+User hsen10 logged in at 26/02/2025 12:11:18 ص.
+Database Connection String: Server=localhost,1433;Database=MemoryGameDB;User Id=sa;Password=root;Encrypt=false;
+Attempting login.
+User hsen10 logged in at 26/02/2025 12:24:15 ص.
+Save Score Method Called
+Score saved successfully for user hsen10 (ID: 1008).
+Save Score Method Called
+Score saved successfully for user hsen10 (ID: 1008).
+Save Score Method Called
+Score saved successfully for user hsen10 (ID: 1008).
+Save Rating Method Called
+Rating 4 saved successfully for user hsen10 (ID: 1008).
