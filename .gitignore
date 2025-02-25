@@ -1,0 +1,26 @@
+# Build artifacts
+bin/
+obj/
+
+# Visual Studio related files
+*.user
+*.suo
+*.cache
+*.pdb
+*.ilk
+*.log
+.vscode/
+.vs/
+
+# Specific folder
+Memory_Game/.vs/
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
+*.log
+
+# Database files
+Memory_Game/Database/Scripts/*.sql
