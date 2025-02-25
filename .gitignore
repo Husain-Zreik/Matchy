@@ -24,3 +24,42 @@ Memory_Game/.vs/
 
 # Database files
 Memory_Game/Database/Scripts/*.sql
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build files and directories
+dist/
+build/
+packages/
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Cache and generated files
+.cache/
+public/
+coverage/
+
+# Image uploads (if stored locally and not in repo)
+/uploads/
+
+# Git related files
+.git/
+
